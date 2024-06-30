@@ -135,9 +135,7 @@ body {
    width: 263px;
    padding: 20px 50px;
    border-radius: 66px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+   text-align: center;
    font-weight: 500;
    font-size: 16px;
 }
@@ -155,6 +153,8 @@ body {
 
 .aboutLink {
    background: transparent;
+   border: 2px solid var(--primary-color);
+   color: var(--primary-color);
 }
 
 .aboutLink:hover {
@@ -629,6 +629,9 @@ footer .marquee-container {
       height: 47px;
       padding: 18px 20px;
       font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
    }
    .ticker {
       height: 38px;
