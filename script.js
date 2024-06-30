@@ -160,7 +160,7 @@ const participantsCarouselConfig = {
     arrowPrevClass: '.arrowPrev',
     arrowNextClass: '.arrowNext',
     indicatorClass: '.carouselIndicator',
-    autoPlayInterval: 0
+    autoPlayInterval: 4
  };
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -190,11 +190,3 @@ const participantsCarousel = new Carousel(participantsConfig);
  });
 
  stagesCarousel.init();
-
-
-//  let i = 1;
-//  for(let li of document.getElementById('carousel').querySelectorAll('li')) {
-//    li.style.position = 'relative';
-//    li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
-//    i++;
-//  }
